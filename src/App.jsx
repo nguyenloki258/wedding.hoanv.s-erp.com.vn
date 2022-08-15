@@ -106,14 +106,14 @@ function App() {
   };
   return (
     <div className="App" ref={fullPage} onScroll={onScroll}>
-      <a
+      {/* <a
         // target={"_blank"}
         href={getInvitation()}
         className="action-btn"
         rel="noreferrer"
       >
        <img className='img-responsive' alt='qr' src='/images/points/qr.png' />
-      </a>
+      </a> */}
       <div className="menu">
         <div
           className={showMenu ? "menu-btn active" : "menu-btn"}
