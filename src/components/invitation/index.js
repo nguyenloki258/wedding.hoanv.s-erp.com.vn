@@ -84,7 +84,7 @@ const Invitation = ({ page = 1 }) => {
   return (
     <div>
       <div id={"invitation" + page} className="invitation">
-        <canvas id={"myCanvas" + page}></canvas>
+        <canvas id={"myCanvas" + page}></canvas> 
       </div>
     </div>
   );

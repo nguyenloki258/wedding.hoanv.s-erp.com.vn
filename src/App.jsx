@@ -4,7 +4,7 @@ import Album from "./components/album";
 import Map from "./components/map";
 import Info from "./components/info";
 import { useRef, useState, useEffect } from "react";
-// import Schedule from "./components/schedule";
+import Schedule from "./components/schedule";
 import Contact from "./components/contact";
 import Invitation from "./components/invitation";
 
@@ -140,7 +140,7 @@ function App() {
             />
             <span>Album ảnh</span>
           </div>
-          {/* <div
+          <div
             className="item"
             role="button"
             aria-hidden="true"
@@ -151,7 +151,7 @@ function App() {
               src="https://img.icons8.com/color/48/ffffff/google-calendar--v1.png"
             />
             <span>Hành trình</span>
-          </div> */}
+          </div>
           <div
             className="item"
             role="button"
@@ -210,12 +210,12 @@ function App() {
         <div className="element page2" ref={homeRef}>
           <Invitation page="2" />
         </div>
-        {/* <div className="element">
+        <div className="element">
           <div className="block-tile" ref={scheduleRef}>
             Hành trình
           </div>
           <Schedule />
-        </div> */}
+        </div>
         <div className="element " ref={contactRef}>
           <div className="block-tile"> Liên hệ</div>
           <Contact />
