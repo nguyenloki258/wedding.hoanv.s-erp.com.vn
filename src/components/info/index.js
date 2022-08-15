@@ -22,7 +22,7 @@ const Info = ({ page }) => {
                                 <span className="and">&</span>
                             </div>
                             <div>
-                                Hường
+                                Hay
                             </div>
                         </div>
                         <div className="sub-info">
@@ -41,7 +41,7 @@ const Info = ({ page }) => {
 
                         </div>
                         <div className="sub-info">
-                            Yên Tập - Nhân Hòa - Mỹ Hào - Hưng Yên
+                            Ngô Thôn - Xuân Lai - Gia Bình - Bắc Ninh
                         </div>
                     </div>
                 )
@@ -56,7 +56,7 @@ const Info = ({ page }) => {
 
                         </div>
                         <div className="sub-info">
-                            Chi Đoan - Cộng Hòa - Nam Sách - Hải Dương
+                            Ngăm Lương - Lãng Ngâm - Gia Bình - Bắc Ninh
                         </div>
                     </div>
                 )
@@ -89,7 +89,7 @@ const Info = ({ page }) => {
                 }
                 return (
                     < >
-                        <Countdown date={new Date("2022-04-10")} renderer={renderCountDown}>
+                        <Countdown date={new Date("022-31-082")} renderer={renderCountDown}>
                             <Completionist />
                         </Countdown>
                     </>

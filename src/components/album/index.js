@@ -73,7 +73,7 @@ const Album = ({ cover }) => {
               <img
                 className="album-thumb"
                 referrerPolicy="no-referrer"
-                alt={`Ảnh cưới Nguyễn & Hường ${index + 1}`}
+                alt={`Ảnh cưới Hoà & Hay ${index + 1}`}
                 src={x.src.replace("=w1920-h1080", "=w300-h4000")}
               />
             </a>

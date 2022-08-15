@@ -8,26 +8,26 @@ const FIXED_POINT = [
   {
     id: 1,
     name: "Nhà trai",
-    location: "Yên Tập, Nhân Hòa, Mỹ Hào, Hưng Yên",
-    latitude: 20.951629,
-    longitude: 106.058693,
+    location: "Ngô Thôn - Xuân Lai - Gia Bình - Bắc Ninh",
+    latitude: 21.051291368432317,
+    longitude: 106.21109957074654,
     code: "1",
-    src: "images/points/loki.jpg",
+    src: "images/points/point.png",
   },
-  {
+  { 
     id: 2,
     name: "Nhà gái",
-    location: "Chi Đoan, Cộng Hòa, Nam Sách, Hải Dương",
-    latitude: 21.01493,
-    longitude: 106.38899,
+    location: "Ngăm Lương - Lãng Ngâm - Gia Bình - Bắc Ninh",
+    latitude: 21.070204127033524,
+    longitude: 106.1360620662975,
     code: "2",
-    src: "images/points/nieu.jpg",
+    src: "images/points/point.png",
   },
 ];
 
 const Map = () => {
   const mapEmbed = `
-    <iframe src="https://www.google.com/maps/embed?pb=!1m25!1m12!1m3!1d119216.47834018533!2d106.15369785771657!3d20.971985537748356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m10!3e0!4m4!2s21.01493%2C106.388990!3m2!1d21.01493!2d106.38898999999999!4m3!3m2!1d20.951629!2d106.05869299999999!5e0!3m2!1sen!2s!4v1644307854710!5m2!1sen!2s" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d29786.478527999152!2d106.16203643058849!3d21.060284690625917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x31359e31f48b1125%3A0x9107150160152708!2zTmfDtCBUaMO0biwgR2lhIELDrG5oLCBC4bqvYyBOaW5oLCBWaeG7h3QgTmFt!3m2!1d21.0530364!2d106.2117664!4m5!1s0x3135a009f7164297%3A0x2287fc87ba243f!2zTmfEg20gTMawxqFuZywgR2lhIELDrG5oLCBC4bqvYyBOaW5oLCBWaeG7h3QgTmFt!3m2!1d21.0706028!2d106.1353055!5e0!3m2!1svi!2s!4v1660560047844!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     `;
   return (
     <div>

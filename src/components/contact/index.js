@@ -10,18 +10,19 @@ const Contact = () => {
             alt="chú rể"
             src="https://lh3.googleusercontent.com/oFkrRyzqYTE-vevCYpZYvvc11RzhT8gocbLPXn3acwQsZTMdaW4StNq8SdEKquiBjG2Gfa5Zcw8wGSqk5WlR6jR-855qf2aL1_JuQNQ5gjokBgQ_dPG2XexL22Cz2GYa3MZL9dJu=w1920-h1080"       />
           <div className="btn-link">
-            <a href="https://www.facebook.com/nvh.neu" target="_blank"  rel="noreferrer" >
+            {/* <a href="https://www.facebook.com/nvh.neu" target="_blank"  rel="noreferrer" >
               <img
                 alt="socical"
                 src="https://img.icons8.com/color/48/ffffff/facebook.png"
               />
             </a>
+            // TODO
             <a href="tel:0967267469" target="_blank"  rel="noreferrer" >
               <img
                 alt="socical"
                 src="https://img.icons8.com/color/48/ffffff/apple-phone.png"
               />
-            </a>
+            </a> */}
           </div>
         </div>
         <img
@@ -35,7 +36,7 @@ const Contact = () => {
             alt="cô dâu"
           />
           <div className="btn-link">
-            <a href="https://www.facebook.com/huonglt.hus7694" target="_blank"  rel="noreferrer" >
+            {/* <a href="https://www.facebook.com/huonglt.hus7694" target="_blank"  rel="noreferrer" >
               <img
                 alt="socical"
                 src="https://img.icons8.com/color/48/ffffff/facebook.png"
@@ -46,7 +47,7 @@ const Contact = () => {
                 alt="socical"
                 src="https://img.icons8.com/color/48/ffffff/apple-phone.png"
               />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
