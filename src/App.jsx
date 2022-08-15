@@ -94,16 +94,16 @@ function App() {
   const soundCloudEmbed = `
   <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1340299825&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/nguyenhero" title="Nguyễn Văn Hoà" target="_blank" style="color: #cccccc; text-decoration: none;">Nguyễn Văn Hoà</a> · <a href="https://soundcloud.com/nguyenhero/sets/wedding" title="Wedding" target="_blank" style="color: #cccccc; text-decoration: none;">Wedding</a></div>
   `;
-  const getInvitation = () => {
-    return '#'
-    // const urlParams = new URLSearchParams(window.location.search);
+  // const getInvitation = () => {
+  //   return '#'
+  //   // const urlParams = new URLSearchParams(window.location.search);
 
-    // const location = urlParams.get("location") || "nha-trai";
-    // if (location === "nha-trai") {
-    //   return "https://docs.google.com/spreadsheets/d/1E0lB6k5ZEz9eMgpvg800APTsPcIFEsCsgy7pR6Zvuvk/edit?usp=sharing";
-    // }
-    // return "https://docs.google.com/spreadsheets/d/1q3O7FowRrVs8HH6Y5iB6m5cksB2-uE3ewfchHMS2x10/edit?usp=sharing";
-  };
+  //   // const location = urlParams.get("location") || "nha-trai";
+  //   // if (location === "nha-trai") {
+  //   //   return "https://docs.google.com/spreadsheets/d/1E0lB6k5ZEz9eMgpvg800APTsPcIFEsCsgy7pR6Zvuvk/edit?usp=sharing";
+  //   // }
+  //   // return "https://docs.google.com/spreadsheets/d/1q3O7FowRrVs8HH6Y5iB6m5cksB2-uE3ewfchHMS2x10/edit?usp=sharing";
+  // };
   return (
     <div className="App" ref={fullPage} onScroll={onScroll}>
       {/* <a
