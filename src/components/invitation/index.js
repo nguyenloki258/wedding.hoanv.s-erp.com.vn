@@ -54,7 +54,7 @@ const Invitation = ({ page = 1 }) => {
           img.width * ratio,
           img.height * ratio
         );
-        if (page === 1) {
+        if (page ==='2') {
           context.font = `${(img.width * ratio) / 20}px Send Flowers`;
           context.fillStyle = "#080852";
           const guest = urlParams.get("guest") || "Quý khách";
@@ -63,13 +63,13 @@ const Invitation = ({ page = 1 }) => {
             context.fillText(
               guest,
               (img.width * ratio) / 2,
-              (img.height * ratio) / 3.6
+              (img.height * ratio) /2.38
             );
           } else {
             context.fillText(
               guest,
               (img.width * ratio) / 2,
-              (img.height * ratio) / 3.9
+              (img.height * ratio) /2.38
             );
           }
         }

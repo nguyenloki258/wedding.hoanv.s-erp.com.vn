@@ -15,14 +15,13 @@ const Contact = () => {
                 alt="socical"
                 src="https://img.icons8.com/color/48/ffffff/facebook.png"
               />
-            </a>
-            // TODO
-            <a href="tel:0967267469" target="_blank"  rel="noreferrer" >
+            </a> */}
+            <a href="tel:0869751666" target="_blank"  rel="noreferrer" >
               <img
                 alt="socical"
                 src="https://img.icons8.com/color/48/ffffff/apple-phone.png"
               />
-            </a> */}
+            </a>
           </div>
         </div>
         <img
@@ -41,13 +40,13 @@ const Contact = () => {
                 alt="socical"
                 src="https://img.icons8.com/color/48/ffffff/facebook.png"
               />
-            </a>{" "}
-            <a href="tel:0987442906" target="_blank"  rel="noreferrer" >
+            </a>{" "} */}
+            <a href="tel:0964776324" target="_blank"  rel="noreferrer" >
               <img
                 alt="socical"
                 src="https://img.icons8.com/color/48/ffffff/apple-phone.png"
               />
-            </a> */}
+            </a>
           </div>
         </div>
       </div>

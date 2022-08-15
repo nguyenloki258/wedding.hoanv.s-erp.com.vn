@@ -103,7 +103,7 @@ body {
     position: absolute;
     display: block;
     padding: 10px;
-    background: #4caf50;
+    // background: #4caf50;
     border-radius: 8px;
     bottom: 1rem;
     left: calc(50vw - 5rem);
@@ -112,6 +112,12 @@ body {
     text-align: center;
     text-decoration: none;
     color: white;
+    img{
+      width: 90px;
+      height: 90px;
+      // border: 2px solid white;
+      border-radius: 8px;
+    }
   }
   .left-panel {
     overflow: hidden;

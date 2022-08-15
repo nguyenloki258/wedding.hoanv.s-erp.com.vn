@@ -89,12 +89,12 @@ const Info = ({ page }) => {
                 }
                 return (
                     < >
-                        <Countdown date={new Date("022-31-082")} renderer={renderCountDown}>
+                        <Countdown date={new Date("2022-08-31")} renderer={renderCountDown}>
                             <Completionist />
                         </Countdown>
                     </>
                 )
-            default:
+            default: 
                 break;
         }
     }
