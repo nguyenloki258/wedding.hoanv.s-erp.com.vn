@@ -36,7 +36,7 @@ const Info = ({ page }) => {
                         <div className="title-info">
 
                             <div>
-                                Nhà trại
+                                Nhà tr
                             </div>
 
                         </div>
